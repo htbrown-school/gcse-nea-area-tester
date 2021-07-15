@@ -62,7 +62,7 @@ namespace AreaTrainer
                         Questions.Square(_difficulty);
                         break;
                     case "2":
-                        Console.WriteLine("triangles");
+                        Questions.Triangle(_difficulty);
                         break;
                     case "3":
                         Console.WriteLine("circles");
@@ -89,7 +89,7 @@ namespace AreaTrainer
                         }
                         break;
                     case "2":
-                        Console.WriteLine("scores");
+                        Console.WriteLine(Score.S);
                         Console.WriteLine();
                         Console.WriteLine("Press enter to continue.");
                         Console.ReadLine();
