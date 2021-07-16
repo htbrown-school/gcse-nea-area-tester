@@ -89,12 +89,13 @@ namespace AreaTrainer
                         }
                         break;
                     case "2":
-                        Console.WriteLine(Score.S);
+                        Score.PrintScores(_username);
                         Console.WriteLine();
                         Console.WriteLine("Press enter to continue.");
                         Console.ReadLine();
                         break;
                     case "3":
+                        Score.SaveScore(_username);
                         Environment.Exit(0);
                         break;
                 }
