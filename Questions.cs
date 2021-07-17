@@ -18,6 +18,7 @@ namespace AreaTrainer
 
             while (choice != correctIndex.ToString() && points > 0)
             {
+                Console.Clear();
                 Console.WriteLine("Find the area of the shape below.");
                 Console.WriteLine();
 
@@ -65,7 +66,7 @@ namespace AreaTrainer
             if (choice != correctIndex.ToString())
             {
                 Console.Clear();
-                Console.WriteLine("The correct answer was " + width * height + "cm.");
+                Console.WriteLine("The correct answer was " + Math.Round(width * height, 2) + "cm.");
             }
         }
 
@@ -80,6 +81,7 @@ namespace AreaTrainer
 
             while (choice != correctIndex.ToString() && points > 0)
             {
+                Console.Clear();
                 Console.WriteLine("Find the area of the shape below.");
                 Console.WriteLine();
 
@@ -127,7 +129,7 @@ namespace AreaTrainer
             if (choice != correctIndex.ToString())
             {
                 Console.Clear();
-                Console.WriteLine("The correct answer was " + 0.5 * b * height + "cm.");
+                Console.WriteLine("The correct answer was " + Math.Round(0.5 * b * height, 2) + "cm.");
             }
 
         }
@@ -142,6 +144,7 @@ namespace AreaTrainer
 
             while (choice != correctIndex.ToString() && points > 0)
             {
+                Console.Clear();
                 Console.WriteLine("Find the area of the shape below.");
                 Console.WriteLine();
 
