@@ -192,5 +192,22 @@ namespace AreaTrainer
                 Console.WriteLine("The correct answer was " + Math.Round(Math.PI * (0.5 * diameter) * (0.5 * diameter), 2) + "cm.");
             }
         }
+
+        public static void Random(int diff)
+        {
+            int rand = _rand.Next(0, 2);
+            switch (rand)
+            {
+                case 0:
+                    Square(diff);
+                    break;
+                case 1:
+                    Triangle(diff);
+                    break;
+                case 2:
+                    Circle(diff);
+                    break;
+            }
+        }
     }
 }
