@@ -34,6 +34,7 @@ namespace AreaTrainer
                 }
                 line = file.ReadLine();
             }
+            file.Close();
 
             return list;
         }
