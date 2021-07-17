@@ -195,7 +195,7 @@ namespace AreaTrainer
 
         public static void Random(int diff)
         {
-            int rand = _rand.Next(0, 2);
+            int rand = _rand.Next(0, 3);
             switch (rand)
             {
                 case 0:
