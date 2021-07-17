@@ -65,10 +65,10 @@ namespace AreaTrainer
                         Questions.Triangle(_difficulty);
                         break;
                     case "3":
-                        Console.WriteLine("circles");
+                        Questions.Circle(_difficulty);
                         break;
                     case "4":
-                        Console.WriteLine("random");
+                        Questions.Random(_difficulty);
                         break;
                 }
                 Console.WriteLine();
